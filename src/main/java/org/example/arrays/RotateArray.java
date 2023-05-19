@@ -1,17 +1,7 @@
 package org.example.arrays;
 
 public class RotateArray {
-
-
-    private static void swapElement(int[] nums, int position) {
-        int lastElement = nums[nums.length - 1];
-        int ElementSubstituted = nums[position];
-        nums[position] = lastElement;
-        for (int i = nums.length; i > position - 1; i--) {
-            nums[i] = nums[i - 1];
-        }
-    }
-
+    
     private static void rotateArray(int[] nums, int steps) {
         if (steps < 0) {
             throw new RuntimeException("Not valid steps input");
