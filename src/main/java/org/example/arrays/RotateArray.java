@@ -1,7 +1,7 @@
 package org.example.arrays;
 
 public class RotateArray {
-    
+
     private static void rotateArray(int[] nums, int steps) {
         if (steps < 0) {
             throw new RuntimeException("Not valid steps input");
