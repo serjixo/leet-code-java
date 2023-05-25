@@ -43,7 +43,7 @@ public class MoveZeroes {
         for (int i = elementToUpdate; i < nums.length; i++) {
             nums[i] = 0;
         }
-return nums;
+        return nums;
     }
 
 }
