@@ -30,7 +30,7 @@ public class ReverseString {
     public static char[] reverseString(char[] stringToReverse) {
 
         int endIndex = stringToReverse.length -1;
-        
+
         for (int startindex = 0; startindex < endIndex; startindex++) {
             char valueHolder =  stringToReverse[startindex];
             stringToReverse[startindex] = stringToReverse[endIndex];
