@@ -30,7 +30,7 @@ public class ReverseInteger {
 
     public static int reverseInteger(int numToReverse) {
 
-            boolean isNegative = false;
+        boolean isNegative = false;
 
         if (numToReverse < 0) {
             isNegative = true;

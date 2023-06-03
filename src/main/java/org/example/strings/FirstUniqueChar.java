@@ -51,7 +51,7 @@ public class FirstUniqueChar {
                 min = uniqueCharIndex;
             }
         }
-        
+
         return min == text.length() ? -1 : min;
 
     }
